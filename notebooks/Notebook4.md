@@ -51,7 +51,10 @@ To be honest, my DSL kind of feels like a mediocre Scala library right now. It h
 start over, maybe in Python, Clojure, or Groovy, since these languages have Dynamic types. While that's out of 
 scope for this class (I only have so much time in the week), I've been pondering how I could implement this 
 language as an external DSL. I spent some time commenting my code this week, but a README explaining how to 
-write in the language and run programs would be really helpful; hopefully I'll have time to add that.
+write in the language and run programs would be really helpful; hopefully I'll have time to add that. If you 
+check out my artifact library, enter the REPL, :load boardGame.scala and hearts.scala, then run main, the game 
+runs pretty well, but if you try to read hearts.scala you might have some trouble figuring out what's going on 
+still.
 
 **What questions do you have for your critique partners? How can they best help
 you?**
